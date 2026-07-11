@@ -5,8 +5,10 @@
 .container{
  width: 1200px;
  margin: auto;
-padding-left: 50px;
 
+}
+section{
+    padding: 50px 0;
 }
 header .container{
     display: flex;
@@ -23,7 +25,7 @@ header .container{
     background-color: #1D4ED8;
     color: white;
     cursor: pointer;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 5px 10px;
     font-weight: 500;
     font-size: 15px;
@@ -45,16 +47,80 @@ header .container{
 }
 .hero{
     position: relative;
+    height: 600px;
+    overflow: hidden;
+    padding: 0;
  }
   /*image section er kaj ekhane shesh*/
 
-.text{
+.hero-content{
     text-align: center;
     color: white;
     font-size: 30px;
-    margin: 130px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
 }
-p{
+.hero-content p{
     font-size: 18px;
-    margin-top: 5px;
+    margin-top: 20px;
+}
+.hero-content .regbutton{
+    align-self: center;
+    padding: 10px 20px;
+    font-size: 17px;
+}
+
+#speakers h4{
+    font-size: 20px;
+    padding: 5px 15px;
+}
+.speaker-card p{
+    color: #1D4ED8;
+    padding: 5px 15px;
+    font-size: 15px;
+}
+.speaker-card img{
+    width: 100%;
+}
+.speaker-card span{
+    font-size: smaller;
+    padding: 5px 15px;
+}
+.speaker-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+.speaker-card{
+    border-radius: 5px;
+    border: 2px solid antiquewhite;
+        padding-bottom: 15px;
+}
+ h2{
+    text-align: center;
+    font-size: 45px;
+    padding-bottom: 35px;
+}
+#pricing-header h1{
+    text-align: center;
+    font-size: 48px;
+}
+#pricing-header p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 100;
+    padding-top: 15px;
+    color: rgb(82, 81, 81);
+}
+.pricing-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 55px;
+    gap: 30px;
+}
+.pricing-card{
+    border:1px solid whitesmoke;
+    padding: 20px 20px 20px 20px;   
 }
