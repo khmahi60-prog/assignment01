@@ -122,5 +122,54 @@ header .container{
 }
 .pricing-card{
     border:1px solid whitesmoke;
-    padding: 20px 20px 20px 20px;   
+    padding: 30px;   
+    border-radius: 10px;
+}
+.pricing-card hr{
+  margin: 15px 0;
+  height: 0;
+  border: none;
+  border-top: 1px solid #888888;
+}
+.pricing-card ul{
+  padding-left: 20px;
+}
+.pricing-card ul li{
+  padding: 5px 0;
+}
+.pricing-card ul li::marker{
+  color: #2563EB;
+}
+.pricing-card ul li{
+  color: #333333;
+  font-size: 16px;
+  font-weight: 300px;
+  margin-bottom: 5px;
+}
+.plan-name{
+    font-size: 12px;
+    font-weight: 600;
+    color: #888888;
+}
+.price{
+  font-size: 40px;
+  padding: 5px 0;
+}
+.persons{
+    font-size: 12px;
+    font-weight: 300;
+    color: #888888;
+}
+.pricing-cta{
+    text-decoration: none;
+    color: #2563EB;
+    background-color: white;
+    border: 1px solid #2563EB;
+    border-radius: 5px;
+    padding: 15px 0;
+    font-size: 16px;
+    font-weight: 500;
+    display: block;
+    margin-top: 20px;
+    text-align: center;
 }
