@@ -163,7 +163,6 @@ header .container{
 .pricing-cta{
     text-decoration: none;
     color: #2563EB;
-    background-color: white;
     border: 1px solid #2563EB;
     border-radius: 5px;
     padding: 15px 0;
@@ -172,4 +171,20 @@ header .container{
     display: block;
     margin-top: 20px;
     text-align: center;
+    font-weight: 900;
+}
+#pro{
+    background-color: #0D1B2A;
+    color: white;
+}
+#pro-color{
+    color:#888888 ;
+}
+#get-pro{
+    background-color: #2563EB;
+    color: white;
+}
+#contact{
+    color:#0D1B2A;
+    border: 1px solid #0D1B2A;
 }
